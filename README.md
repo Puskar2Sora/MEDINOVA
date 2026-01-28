@@ -4,27 +4,42 @@
 <img src="logo.png" width="30%" alt="MEDINOVA Logo"/>
 
 <h1 style="font-size:50px; margin:0;">MEDINOVA</h1>
-<h3>An IoT-Powered Smart Pill Dispenser for Healthcare Automation</h3>
-
-<p><em><strong>Timely doses, healthier lives</strong> — where technology cares.</em></p>
-
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D2FF&center=true&vCenter=true&width=500&lines=IoT-Powered+Smart+Healthcare;Automated+Pill+Dispensing;Engineering+Care+One+Dose+at+a+Time;Next-Gen+Medical+Adherence" alt="Typing SVG" />
+</p>
 <!-- BADGES -->
 <p>
-  <img src="https://img.shields.io/badge/ESP8266-NodeMCU-orange?style=flat-square&logo=arduino"/>
-  <img src="https://img.shields.io/badge/Language-C++-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Category-IoT%20Healthcare%20Tech%20Device%20Prototype-success?style=flat-square"/>
-<img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square"/>
+ <img src="https://img.shields.io/badge/Hardware-ESP8266-EE4C2C?style=for-the-badge&logo=espressif&logoColor=white" />
+   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Category-IoT_Healthcare-32CD32?style=for-the-badge&logo=iot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Active_Prototype-yellow?style=for-the-badge" />
+ <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square"/>
 </p>
 
 </div>
 
 ---
 
-<!-- 🌟 PROJECT PREVIEW -->
-<div align="center">
-  <img src="hardware/Raw_Circuit.png" width="30%" alt="Medinova Demo"/>
-  <p><em>Medinova in motion — smart dispensing with clarity.</em></p>
-</div>
+
+
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="hardware/Raw_Circuit.png" width="350px" style="border-radius:20px; box-shadow: 0px 10px 30px rgba(0,210,255,0.3);" />
+      <br><i><b>"Medinova in motion"</b></i>
+    </td>
+    <td width="50px"></td>
+    <td align="left">
+      <h2>📌 Evolution of Care</h2>
+      <p><b>MEDINOVA</b> is not just a dispenser; it's a lifeline. Designed for the elderly and chronically ill, it automates the <b>crucial 3:1 ratio</b>—The right pill, at the right time, with the right reminder.</p>
+      <ul>
+        <li>✅ Reduces Caregiver Fatigue</li>
+        <li>✅ Eliminates Human Forgetfulness</li>
+        <li>✅ Real-time IoT Monitoring</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -33,6 +48,7 @@
 <p>
 <strong>MEDINOVA</strong> is an innovative IoT-based smart medication dispenser designed to automate and improve medication adherence for patients, especially the elderly or chronically ill. It minimizes human error, prevents missed doses, and empowers independent living with smart scheduling and reminders.
 </p>
+<p><em><strong>Timely doses, healthier lives</strong> — where technology cares.</em></p>
 
 ---
 
@@ -48,6 +64,28 @@
 <strong>Medinova solves these with automation, alerts, and precision.</strong>
 
 ---
+<h2>🚀 Core Intelligence Features</h2>
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://cdn-icons-png.flaticon.com/512/3593/3593452.png" width="50px"/><br>
+      <b>RTC Precision</b><br>
+      DS3231 ensures millisecond-accurate scheduling.
+    </td>
+    <td align="center" width="33%">
+      <img src="https://cdn-icons-png.flaticon.com/512/2991/2991231.png" width="50px"/><br>
+      <b>Servo Dispensing</b><br>
+      Controlled rotation for jam-free pill delivery.
+    </td>
+    <td align="center" width="33%">
+      <img src="https://cdn-icons-png.flaticon.com/512/1067/1067357.png" width="50px"/><br>
+      <b>Multi-Alert</b><br>
+      Visual LCD feedback paired with auditory buzzer cues.
+    </td>
+  </tr>
+</table>
+
 
 ## ⚙️ How It Works
 
@@ -70,16 +108,26 @@
 
 ---
 
-## 📦 Hardware Stack
+<h2>🛠️ Technical Foundation</h2>
 
-<table>
-<tr><th>Component</th><th>Purpose</th></tr>
-<tr><td>ESP8266 / NodeMCU</td><td>Main controller with IoT capability</td></tr>
-<tr><td>RTC Module (DS3231)</td><td>Real-time clock for accurate scheduling</td></tr>
-<tr><td>Servo Motor</td><td>Dispensing mechanism</td></tr>
-<tr><td>I2C LCD Display</td><td>User feedback & alerts</td></tr>
-<tr><td>Buzzer</td><td>Attention alert</td></tr>
-<tr><td>Breadboard & Wires</td><td>Prototyping base</td></tr>
+<table width="100%">
+  <tr>
+    <th width="50%">📦 Hardware Component</th>
+    <th width="50%">🧠 Software & Tools</th>
+  </tr>
+  <tr>
+    <td>
+      • <b>ESP8266 / NodeMCU</b> (The Brain)<br>
+      • <b>DS3231 RTC</b> (The Watch)<br>
+      • <b>Servo Motor</b> (The Hands)<br>
+      • <b>I2C LCD 16x2</b> (The Voice)
+    </td>
+    <td>
+      • <b>Arduino IDE</b> (Development Environment)<br>
+      • <b>C++ Firmware</b> (Performance Optimized)<br>
+      • <b>JSON Config</b> (Extensible Data Management)
+    </td>
+  </tr>
 </table>
 
 ---
@@ -105,6 +153,19 @@
 
 ---
 
+<h2>⚙️ System Architecture</h2>
+
+```mermaid
+graph LR
+    A[User/Caregiver] -->|Set Alarm| B[ESP8266 NodeMCU]
+    B --> C{Time Match?}
+    C -->|Yes| D[Trigger Servo]
+    C -->|Yes| E[Activate Buzzer]
+    D --> F[Dispense Pill]
+    E --> G[LCD Feedback]
+    style B fill:#00d2ff,stroke:#333,stroke-width:2px
+    style F fill:#32CD32,stroke:#333,stroke-width:2px
+```
 <h2>📈 Advantages</h2>
 
 <table>
@@ -166,21 +227,45 @@
 
 ---
 
-## 👥 Team Behind Medinova
+<h2>👥 The Engineering Team</h2> <p><i>Dept of CSE | Mentally Dept of IOT</i></p>
 
-<div align="center">
-  <table>
-    <tr><th>Name</th><th>Role</th></tr>
-    <tr><td>Sankalan Pal</td><td>Leader & Presenter</td></tr>
-    <tr><td><strong>Puskar Nath</strong></td><td>Researcher & Presenter</td></tr>
-    <tr><td>Shayak Sarkar</td><td>Researcher</td></tr>
-    <tr><td>Aniraj Saha</td><td>Visualization</td></tr>
-    <tr><td>Samadrita Datta</td><td>Designer</td></tr>
-    <tr><td>Pameli Saha</td><td>Designer</td></tr>
-  </table>
+<table> <tr align="center"> <td><img src="https://www.google.com/search?q=https://ui-avatars.com/api/%3Fname%3DSankalan%2BPal%26background%3D00d2ff%26color%3Dfff" width="60px" style="border-radius:50%;"/>
 
-  <p>Dept of CSE | 2nd Year, 3rd Semester</p>
-</div>
+
+<b>Sankalan Pal</b>
+
+
+<small>Lead</small></td> <td><img src="https://www.google.com/search?q=https://ui-avatars.com/api/%3Fname%3DPuskar%2BNath%26background%3D00d2ff%26color%3Dfff" width="60px" style="border-radius:50%;"/>
+
+
+<b>Puskar Nath</b>
+
+
+<small>Researcher</small></td> <td><img src="https://www.google.com/search?q=https://ui-avatars.com/api/%3Fname%3DShayak%2BSarkar%26background%3D00d2ff%26color%3Dfff" width="60px" style="border-radius:50%;"/>
+
+
+<b>Shayak Sarkar</b>
+
+
+<small>Researcher</small></td> <td><img src="https://www.google.com/search?q=https://ui-avatars.com/api/%3Fname%3DAniraj%2BSaha%26background%3D00d2ff%26color%3Dfff" width="60px" style="border-radius:50%;"/>
+
+
+<b>Aniraj Saha</b>
+
+
+<small>Visuals</small></td> <td><img src="https://www.google.com/search?q=https://ui-avatars.com/api/%3Fname%3DSamadrita%2BDatta%26background%3D00d2ff%26color%3Dfff" width="60px" style="border-radius:50%;"/>
+
+
+<b>Samadrita</b>
+
+
+<small>Design</small></td> <td><img src="https://www.google.com/search?q=https://ui-avatars.com/api/%3Fname%3DPameli%2BSaha%26background%3D00d2ff%26color%3Dfff" width="60px" style="border-radius:50%;"/>
+
+
+<b>Pameli Saha</b>
+
+
+<small>Design</small></td> </tr> </table>
 
 ---
 
